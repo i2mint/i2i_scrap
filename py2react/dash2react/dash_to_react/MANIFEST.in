@@ -1,0 +1,7 @@
+include dash_to_react/dash_to_react.min.js
+include dash_to_react/dash_to_react.min.js.map
+include dash_to_react/metadata.json
+include dash_to_react/package-info.json
+include README.md
+include LICENSE
+include package.json
