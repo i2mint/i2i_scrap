@@ -1,0 +1,226 @@
+[
+    {
+        "key": "some_json_config",
+        "subkeys": [
+            {
+                "key": "some_string",
+                "value": "test"
+            },
+            {
+                "key": "some_integer",
+                "value": 123
+            },
+            {
+                "key": "some_date",
+                "value": "2020-04-07"
+            },
+            {
+                "key": "some_boolean",
+                "value": true
+            },
+            {
+                "key": "some_section",
+                "subkeys": [
+                    {
+                        "key": "some_string",
+                        "value": "test"
+                    },
+                    {
+                        "key": "some_integer",
+                        "value": 123
+                    },
+                    {
+                        "key": "some_date",
+                        "value": "2020-04-07"
+                    },
+                    {
+                        "key": "some_boolean",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "some_yaml_config",
+        "subkeys": [
+            {
+                "key": "some_string",
+                "value": "test"
+            },
+            {
+                "key": "some_integer",
+                "value": 123
+            },
+            {
+                "key": "some_date",
+                "value": "2020-04-07"
+            },
+            {
+                "key": "some_boolean",
+                "value": true
+            },
+            {
+                "key": "some_section",
+                "subkeys": [
+                    {
+                        "key": "some_string",
+                        "value": "test"
+                    },
+                    {
+                        "key": "some_integer",
+                        "value": 123
+                    },
+                    {
+                        "key": "some_date",
+                        "value": "2020-04-07"
+                    },
+                    {
+                        "key": "some_boolean",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "some_xml_config",
+        "subkeys": [
+            {
+                "key": "some_string",
+                "value": "test"
+            },
+            {
+                "key": "some_integer",
+                "value": 123
+            },
+            {
+                "key": "some_date",
+                "value": "2020-04-07"
+            },
+            {
+                "key": "some_boolean",
+                "value": true
+            },
+            {
+                "key": "some_section",
+                "subkeys": [
+                    {
+                        "key": "some_string",
+                        "value": "test"
+                    },
+                    {
+                        "key": "some_integer",
+                        "value": 123
+                    },
+                    {
+                        "key": "some_date",
+                        "value": "2020-04-07"
+                    },
+                    {
+                        "key": "some_boolean",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "some_ini_config",
+        "subkeys":[
+            {
+                "key": "some_section",
+                "subkeys": [
+                    {
+                        "key": "some_string",
+                        "value": "test"
+                    },
+                    {
+                        "key": "some_integer",
+                        "value": 123
+                    },
+                    {
+                        "key": "some_date",
+                        "value": "2020-04-07"
+                    },
+                    {
+                        "key": "some_boolean",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "key": "some_other_section",
+                "subkeys": [
+                    {
+                        "key": "some_other_string",
+                        "value": "test"
+                    },
+                    {
+                        "key": "some_other_integer",
+                        "value": 123
+                    },
+                    {
+                        "key": "some_other_date",
+                        "value": "2020-04-07"
+                    },
+                    {
+                        "key": "some_other_boolean",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "some_toml_config",
+        "subkeys":[
+            {
+                "key": "some_section",
+                "subkeys": [
+                    {
+                        "key": "some_string",
+                        "value": "test"
+                    },
+                    {
+                        "key": "some_integer",
+                        "value": 123
+                    },
+                    {
+                        "key": "some_date",
+                        "value": "2020-04-07"
+                    },
+                    {
+                        "key": "some_boolean",
+                        "value": true
+                    }
+                ]
+            },
+            {
+                "key": "some_other_section",
+                "subkeys": [
+                    {
+                        "key": "some_other_string",
+                        "value": "test"
+                    },
+                    {
+                        "key": "some_other_integer",
+                        "value": 123
+                    },
+                    {
+                        "key": "some_other_date",
+                        "value": "2020-04-07"
+                    },
+                    {
+                        "key": "some_other_boolean",
+                        "value": true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "some_empty_config",
+        "subkeys": []
+    }
+]

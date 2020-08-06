@@ -1,7 +1,7 @@
 {
-  "src/lib/components/DashToReact.react.js": {
+  "src/lib/components/example-component/ExampleComponent.react.js": {
     "description": "ExampleComponent is an example component.\r\nIt takes a property, `label`, and\r\ndisplays it.\r\nIt renders an input with the property `value`\r\nwhich is editable by the user.",
-    "displayName": "DashToReact",
+    "displayName": "ExampleComponent",
     "methods": [],
     "props": {
       "id": {
@@ -34,7 +34,286 @@
       }
     }
   },
-  "src/lib/components/TicTacToe.react.js": {
+  "src/lib/components/nested-data-crud/NestedDataCRUD.react.js": {
+    "description": "",
+    "displayName": "NestedDataCRUD",
+    "methods": [
+      {
+        "name": "onEditingCell",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "afterEditingCell",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onOpeningContextMenu",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onSelectingMenuItem",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          },
+          {
+            "name": "fromToolbar",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onBindingData",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onSelectingRow",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "onClickingOnToolbar",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "e",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "initTreeGrid",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "setEditSettings",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "setContextMenuItems",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "setToolbarSettings",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "setSearchSettings",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "mapDataFields",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "initNewMenu",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "setValidationRules",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "initDataSource",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "setDisplayProperties",
+        "docblock": null,
+        "modifiers": [],
+        "params": [],
+        "returns": null
+      },
+      {
+        "name": "addIds",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "items",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "getItemById",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "id",
+            "type": null
+          },
+          {
+            "name": "root",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "updateDataSource",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "dataSource",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "dataSource": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": ""
+      },
+      "keyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "keyHeader": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "valueField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "valueHeader": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "childrenField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "nodeLabel": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "leafLabel": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": ""
+      },
+      "height": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": ""
+      }
+    }
+  },
+  "src/lib/components/tic-tac-toe/TicTacToe.react.js": {
     "description": "",
     "displayName": "TicTacToe",
     "methods": [
@@ -66,8 +345,7 @@
     "props": {
       "id": {
         "type": {
-          "name": "custom",
-          "raw": "PropTypes.string"
+          "name": "string"
         },
         "required": false,
         "description": "The ID used to identify this component in Dash callbacks."

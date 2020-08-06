@@ -8,7 +8,7 @@ class TicTacToe(Component):
 
 
 Keyword arguments:
-- id (optional): The ID used to identify this component in Dash callbacks."""
+- id (string; optional): The ID used to identify this component in Dash callbacks."""
     @_explicitize_args
     def __init__(self, id=Component.UNDEFINED, **kwargs):
         self._prop_names = ['id']

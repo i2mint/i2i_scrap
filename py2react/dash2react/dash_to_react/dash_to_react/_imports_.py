@@ -1,7 +1,9 @@
-from .DashToReact import DashToReact
+from .ExampleComponent import ExampleComponent
+from .NestedDataCRUD import NestedDataCRUD
 from .TicTacToe import TicTacToe
 
 __all__ = [
-    "DashToReact",
+    "ExampleComponent",
+    "NestedDataCRUD",
     "TicTacToe"
 ]

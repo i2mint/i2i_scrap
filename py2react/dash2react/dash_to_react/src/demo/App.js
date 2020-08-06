@@ -1,7 +1,8 @@
 /* eslint no-magic-numbers: 0 */
 import React, {Component} from 'react';
 
-import { DashToReact, TicTacToe } from '../lib';
+import { ExampleComponent, TicTacToe, NestedDataCRUD } from '../lib';
+import { configData } from '../../../../data/data';
 
 class App extends Component {
 
@@ -19,14 +20,17 @@ class App extends Component {
 
     render() {
         return (
-            <div>
-                <DashToReact
-                    setProps={this.setProps}
-                    {...this.state}
-                />
-                <TicTacToe />
-            </div>
+            <NestedDataCRUD dataSource={configData} childrenField='subkeys' nodeLabel='Section' leafLabel='Item' height={800} dataChanged={() => console.log('dataChanged fired')}/>
         )
+        // return (
+        //     <div>
+        //         <ExampleComponent
+        //             setProps={this.setProps}
+        //             {...this.state}
+        //         />
+        //         <TicTacToe />
+        //     </div>
+        // )
     }
 }
 

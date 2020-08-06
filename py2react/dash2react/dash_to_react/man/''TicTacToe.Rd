@@ -14,5 +14,5 @@
 }
 
 \arguments{
-\item{id}{The ID used to identify this component in Dash callbacks.}
+\item{id}{Character. The ID used to identify this component in Dash callbacks.}
 }

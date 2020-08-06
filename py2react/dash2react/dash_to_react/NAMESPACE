@@ -1,4 +1,6 @@
 # AUTO GENERATED FILE - DO NOT EDIT
 
-export(''DashToReact)
+export(''ExampleComponent)
+export(''NestedDataCRUD)
 export(''TicTacToe)
+export(DashToReact)

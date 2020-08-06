@@ -1,0 +1,7 @@
+include nested_data_crud/nested_data_crud.min.js
+include nested_data_crud/nested_data_crud.min.js.map
+include nested_data_crud/metadata.json
+include nested_data_crud/package-info.json
+include README.md
+include LICENSE
+include package.json
